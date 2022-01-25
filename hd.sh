@@ -31,10 +31,12 @@
 #
 #===============================================================================
 
-#Pega o disco principal
+#Pega o disco principal representado por "." 
+#para pegar outra partição tem que subistituir por /dev/sdb1 ou outra qualquer
+
 DISCO_ATUAL=`df -h . | tail -n1 | awk '{print $1}'`
 
-#Pega o TAMANHO total do disco
+#Pega o tamanho total do disco
 TAMANHO=`df -h | grep $DISCO_ATUAL | awk '{print $2}'`
 
 #Pega o quanto foi utilizado atualmente
