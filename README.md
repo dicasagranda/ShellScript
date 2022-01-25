@@ -5,7 +5,7 @@
 Um apanhado de ShellScripts que utilizo no dia a dia!
 
 * hd.sh
-      * Script que mostra o espaço livre na partição atual
+     * Script que mostra o espaço livre na partição atual
 * dns.sh
       * Verifica se o DNS não foi alterado
 * ...
