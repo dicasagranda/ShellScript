@@ -3,3 +3,14 @@
 # ShellScript
 
 Um apanhado de ShellScripts que utilizo no dia a dia!
+
+Markup : * hd.sh
+              * Script que mostra o espaço livre na partição atual
+         * dns.sh
+              * Verifica se o DNS não foi alterado
+         * ...
+         
+Os codigos ainda estão todos juntos a medida que for documentando eles eu vou upando
+
+Obrigado!
+Forte Abraço!
